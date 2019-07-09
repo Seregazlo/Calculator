@@ -55,25 +55,8 @@ namespace Calculator
         {
             double firstNumber = Convert.ToDouble(FirstField.Text);
             double secondNumber = Convert.ToDouble(SecondField.Text);
-            double result;
-            switch (((Button) sender).Name)
-            {
-                case "Addition":
-                    result = firstNumber + secondNumber;
-                    break;
-                case "Difference":
-                     result = firstNumber - secondNumber;
-                     break;
-                case "Multiplication":
-                    result = firstNumber * secondNumber;
-                    break;
-                case "Division":
-                    result = firstNumber / secondNumber;
-                    break;
-                default: throw new Exception("Error");
-                    break;
-            }
-
+            ITwoArgumentsCalculator calculator= TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstNumber, secondNumber);
             Result.Text = result.ToString();
         }
     }
