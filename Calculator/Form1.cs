@@ -33,22 +33,34 @@ namespace Calculator
 
         private void AdditionButton_Click(object sender, EventArgs e)
         {
-
+            double NumbersFromFirstField = Convert.ToDouble(FirstField.Text);
+            double NumbersFromSecondField = Convert.ToDouble(SecondField.Text);
+            double result = NumbersFromFirstField + NumbersFromSecondField;
+            Result.Text = result.ToString();
         }
 
         private void DifferenceButton_Click(object sender, EventArgs e)
         {
-
+            double NumbersFromFirstField = Convert.ToDouble(FirstField.Text);
+            double NumbersFromSecondField = Convert.ToDouble(SecondField.Text);
+            double result = NumbersFromFirstField - NumbersFromSecondField;
+            Result.Text = result.ToString();
         }
 
         private void MultiplicationButton_Click(object sender, EventArgs e)
         {
-
+            double NumbersFromFirstField = Convert.ToDouble(FirstField.Text);
+            double NumbersFromSecondField = Convert.ToDouble(SecondField.Text);
+            double result = NumbersFromFirstField * NumbersFromSecondField;
+            Result.Text = result.ToString();
         }
 
         private void DivisionButton_Click(object sender, EventArgs e)
         {
-
+            double NumbersFromFirstField = Convert.ToDouble(FirstField.Text);
+            double NumbersFromSecondField = Convert.ToDouble(SecondField.Text);
+            double result = NumbersFromFirstField / NumbersFromSecondField;
+            Result.Text = result.ToString();
         }
     }
 }
