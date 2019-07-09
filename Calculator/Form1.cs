@@ -60,21 +60,21 @@ namespace Calculator
             {
                 case "Addition":
                     result = firstNumber + secondNumber;
-                    Result.Text = result.ToString();
                     break;
                 case "Difference":
                      result = firstNumber - secondNumber;
-                     Result.Text = result.ToString();
-                    break;
+                     break;
                 case "Multiplication":
                     result = firstNumber * secondNumber;
-                    Result.Text = result.ToString();
                     break;
                 case "Division":
                     result = firstNumber / secondNumber;
-                    Result.Text = result.ToString();
+                    break;
+                default: throw new Exception("Error");
                     break;
             }
+
+            Result.Text = result.ToString();
         }
     }
     
