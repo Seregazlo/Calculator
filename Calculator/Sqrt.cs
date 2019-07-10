@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class Sqrt
+    class Sqrt:IOneArgumentsCalculator
     {
+        public double Calculate(double firstValue)
+        {
+            return Math.Sqrt(firstValue);
+        }
     }
 }

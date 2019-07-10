@@ -5,8 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class Exponentation:
+    class Exponentation: IOneArgumentsCalculator
     {
-
+        public double Calculate(double firstValue)
+        {
+            return firstValue*firstValue;
+        }
     }
 }

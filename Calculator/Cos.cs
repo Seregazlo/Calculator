@@ -8,11 +8,11 @@ using static System.Math;
 namespace Calculator
 {
 
-    class Cos: ITwoArgumentsCalculatorSingleArgument
+    class Cos: IOneArgumentsCalculator
     {
-        public void Calculate(double firstValue)
+        public double Calculate(double firstValue)
         {
-            return Math.Cos;
+            return Math.Cos(firstValue);
         }
     }
 }
