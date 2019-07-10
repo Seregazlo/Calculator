@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class Arcsin
+    class Arcsin:IOneArgumentsCalculator
     {
+        public double Calculate(double firstValue)
+        {
+            return Math.Asin(firstValue);
+        }
     }
 }

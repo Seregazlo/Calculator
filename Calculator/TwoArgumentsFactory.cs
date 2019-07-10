@@ -21,6 +21,12 @@ namespace Calculator
                     return new Mulitipleer();
                 case "Division":
                     return new Divider();
+                case "Pow":
+                    return new Pow();
+                case "RemainDivision":
+                    return new RemainDivision();
+                case "ArithmeticMean":
+                    return new ArithmeticMean();
                 default:
                     throw new Exception("Error");
             }

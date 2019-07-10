@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class Mod
+    class Mod:IOneArgumentsCalculator
     {
+        public double Calculate(double firstValue)
+        {
+            return Math.Abs(firstValue);
+        }
     }
 }

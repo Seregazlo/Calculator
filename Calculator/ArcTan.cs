@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class ArcTan
+    class ArcTan:IOneArgumentsCalculator
     {
+        public double Calculate(double firstValue)
+        {
+            return Math.Atan(firstValue);
+        }
     }
 }

@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class Tan:IOneArgumentsCalculator
+    class Log10:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {
-            return Math.Atan(firstValue);
+            return Math.Log10(firstValue);
         }
     }
 }

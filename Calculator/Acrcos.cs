@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class Acrcos
+    class Acrcos:IOneArgumentsCalculator
     {
+        public double Calculate(double firstValue)
+        {
+            return Math.Acos(firstValue);
+        }
     }
 }

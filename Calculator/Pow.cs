@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class ArithmeticMean:ITwoArgumentsCalculator
+    class Pow:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {
-            return ((firstValue + secondValue) / 2);
+            return Math.Pow(firstValue, secondValue);
         }
     }
 }

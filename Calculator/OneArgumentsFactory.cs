@@ -19,6 +19,20 @@ namespace Calculator
                         return new Exponentation();
                     case "Sqrt":
                         return new Sqrt();
+                    case "Arcsin":
+                        return new Arcsin();
+                    case "AcrTan":
+                        return new ArcTan();
+                    case "Mod":
+                        return new Mod();
+                    case "CosH":
+                        return new CosH();
+                    case "Acrcos":
+                        return new Acrcos();
+                    case "Tan":
+                        return new Tan();
+                    case "Log10":
+                        return new Log10();
                     default:
                         throw new Exception("Error");
                 }

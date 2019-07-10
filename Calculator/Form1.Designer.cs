@@ -40,21 +40,21 @@
             this.Exponent = new System.Windows.Forms.Button();
             this.Sqrt = new System.Windows.Forms.Button();
             this.Tan = new System.Windows.Forms.Button();
-            this.Ctan = new System.Windows.Forms.Button();
+            this.Log10 = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
             this.Arccos = new System.Windows.Forms.Button();
             this.Arctan = new System.Windows.Forms.Button();
-            this.Arcctan = new System.Windows.Forms.Button();
+            this.CosH = new System.Windows.Forms.Button();
             this.ArithmeticMean = new System.Windows.Forms.Button();
             this.Mod = new System.Windows.Forms.Button();
-            this.PointAngle = new System.Windows.Forms.Button();
+            this.Pow = new System.Windows.Forms.Button();
             this.RemainDivision = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.SinH = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
@@ -178,15 +178,15 @@
             this.Tan.UseVisualStyleBackColor = true;
             this.Tan.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
-            // Ctan
+            // Log10
             // 
-            this.Ctan.Location = new System.Drawing.Point(203, 81);
-            this.Ctan.Name = "Ctan";
-            this.Ctan.Size = new System.Drawing.Size(75, 23);
-            this.Ctan.TabIndex = 12;
-            this.Ctan.Text = "ctan()";
-            this.Ctan.UseVisualStyleBackColor = true;
-            this.Ctan.Click += new System.EventHandler(this.CheckButton_Click_2);
+            this.Log10.Location = new System.Drawing.Point(203, 81);
+            this.Log10.Name = "Log10";
+            this.Log10.Size = new System.Drawing.Size(75, 23);
+            this.Log10.TabIndex = 12;
+            this.Log10.Text = "log10";
+            this.Log10.UseVisualStyleBackColor = true;
+            this.Log10.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
             // Arcsin
             // 
@@ -218,15 +218,15 @@
             this.Arctan.UseVisualStyleBackColor = true;
             this.Arctan.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
-            // Arcctan
+            // CosH
             // 
-            this.Arcctan.Location = new System.Drawing.Point(203, 201);
-            this.Arcctan.Name = "Arcctan";
-            this.Arcctan.Size = new System.Drawing.Size(75, 23);
-            this.Arcctan.TabIndex = 16;
-            this.Arcctan.Text = "arctctan()";
-            this.Arcctan.UseVisualStyleBackColor = true;
-            this.Arcctan.Click += new System.EventHandler(this.CheckButton_Click_2);
+            this.CosH.Location = new System.Drawing.Point(203, 201);
+            this.CosH.Name = "CosH";
+            this.CosH.Size = new System.Drawing.Size(75, 23);
+            this.CosH.TabIndex = 16;
+            this.CosH.Text = "cosh()";
+            this.CosH.UseVisualStyleBackColor = true;
+            this.CosH.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
             // ArithmeticMean
             // 
@@ -248,15 +248,15 @@
             this.Mod.UseVisualStyleBackColor = true;
             this.Mod.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
-            // PointAngle
+            // Pow
             // 
-            this.PointAngle.Location = new System.Drawing.Point(203, 291);
-            this.PointAngle.Name = "PointAngle";
-            this.PointAngle.Size = new System.Drawing.Size(75, 23);
-            this.PointAngle.TabIndex = 19;
-            this.PointAngle.Text = "1/x";
-            this.PointAngle.UseVisualStyleBackColor = true;
-            this.PointAngle.Click += new System.EventHandler(this.CheckButton_Click_2);
+            this.Pow.Location = new System.Drawing.Point(203, 291);
+            this.Pow.Name = "Pow";
+            this.Pow.Size = new System.Drawing.Size(75, 23);
+            this.Pow.TabIndex = 19;
+            this.Pow.Text = "Возв.в ст.";
+            this.Pow.UseVisualStyleBackColor = true;
+            this.Pow.Click += new System.EventHandler(this.CheckButton_Click);
             // 
             // RemainDivision
             // 
@@ -313,14 +313,15 @@
             this.button15.Text = "button15";
             this.button15.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // SinH
             // 
-            this.button16.Location = new System.Drawing.Point(302, 201);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 26;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
+            this.SinH.Location = new System.Drawing.Point(302, 201);
+            this.SinH.Name = "SinH";
+            this.SinH.Size = new System.Drawing.Size(75, 23);
+            this.SinH.TabIndex = 26;
+            this.SinH.Text = "sinh()";
+            this.SinH.UseVisualStyleBackColor = true;
+            this.SinH.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
             // button17
             // 
@@ -377,21 +378,21 @@
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.SinH);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.RemainDivision);
-            this.Controls.Add(this.PointAngle);
+            this.Controls.Add(this.Pow);
             this.Controls.Add(this.Mod);
             this.Controls.Add(this.ArithmeticMean);
-            this.Controls.Add(this.Arcctan);
+            this.Controls.Add(this.CosH);
             this.Controls.Add(this.Arctan);
             this.Controls.Add(this.Arccos);
             this.Controls.Add(this.Arcsin);
-            this.Controls.Add(this.Ctan);
+            this.Controls.Add(this.Log10);
             this.Controls.Add(this.Tan);
             this.Controls.Add(this.Sqrt);
             this.Controls.Add(this.Exponent);
@@ -425,21 +426,21 @@
         private System.Windows.Forms.Button Exponent;
         private System.Windows.Forms.Button Sqrt;
         private System.Windows.Forms.Button Tan;
-        private System.Windows.Forms.Button Ctan;
+        private System.Windows.Forms.Button Log10;
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button Arccos;
         private System.Windows.Forms.Button Arctan;
-        private System.Windows.Forms.Button Arcctan;
+        private System.Windows.Forms.Button CosH;
         private System.Windows.Forms.Button ArithmeticMean;
         private System.Windows.Forms.Button Mod;
-        private System.Windows.Forms.Button PointAngle;
+        private System.Windows.Forms.Button Pow;
         private System.Windows.Forms.Button RemainDivision;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button SinH;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;

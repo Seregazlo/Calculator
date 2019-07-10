@@ -61,12 +61,12 @@
   <ItemGroup>
     <Compile Include="Acrcos.cs" />
     <Compile Include="Adder.cs" />
-    <Compile Include="ArcCtan.cs" />
     <Compile Include="Arcsin.cs" />
     <Compile Include="ArcTan.cs" />
     <Compile Include="ArithmeticMean.cs" />
     <Compile Include="Cos.cs" />
-    <Compile Include="Ctan.cs" />
+    <Compile Include="CosH.cs" />
+    <Compile Include="Log10.cs" />
     <Compile Include="Discripter.cs" />
     <Compile Include="Divider.cs" />
     <Compile Include="Exponentation.cs" />
@@ -81,7 +81,7 @@
     <Compile Include="Mod.cs" />
     <Compile Include="Mulitipleer.cs" />
     <Compile Include="OneArgumentsFactory.cs" />
-    <Compile Include="PointAngle.cs" />
+    <Compile Include="Pow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemainDivision.cs" />

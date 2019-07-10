@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Calculator
 {
-    class RemainDivision
+    class RemainDivision:ITwoArgumentsCalculator
     {
+        public double Calculate(double firstValue, double secondValue)
+        {
+            return firstValue % secondValue;
+        }
     }
 }
