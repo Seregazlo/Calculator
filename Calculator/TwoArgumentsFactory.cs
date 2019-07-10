@@ -27,6 +27,14 @@ namespace Calculator
                     return new RemainDivision();
                 case "ArithmeticMean":
                     return new ArithmeticMean();
+                case "logxy":
+                    return new logxy();
+                case "minxy":
+                    return new minxy();
+                case "maxxy":
+                    return new maxxy();
+                case "xoney":
+                    return new xoney();
                 default:
                     throw new Exception("Error");
             }

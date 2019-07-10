@@ -66,6 +66,8 @@
     <Compile Include="ArithmeticMean.cs" />
     <Compile Include="Cos.cs" />
     <Compile Include="CosH.cs" />
+    <Compile Include="exp.cs" />
+    <Compile Include="fx.cs" />
     <Compile Include="Log10.cs" />
     <Compile Include="Discripter.cs" />
     <Compile Include="Divider.cs" />
@@ -78,6 +80,9 @@
     </Compile>
     <Compile Include="IOneArgumentsCalculator.cs" />
     <Compile Include="ITwoArgumentsCalculator.cs" />
+    <Compile Include="logxy.cs" />
+    <Compile Include="maxxy.cs" />
+    <Compile Include="minxy.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Mulitipleer.cs" />
     <Compile Include="OneArgumentsFactory.cs" />
@@ -86,9 +91,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemainDivision.cs" />
     <Compile Include="Sin.cs" />
+    <Compile Include="SinH.cs" />
     <Compile Include="Sqrt.cs" />
+    <Compile Include="stx.cs" />
     <Compile Include="Tan.cs" />
+    <Compile Include="tanh.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
+    <Compile Include="xoney.cs" />
+    <Compile Include="xten.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

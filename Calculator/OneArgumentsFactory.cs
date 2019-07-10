@@ -33,6 +33,18 @@ namespace Calculator
                         return new Tan();
                     case "Log10":
                         return new Log10();
+                    case "stx":
+                        return new stx();
+                    case "xten":
+                        return new xten();
+                    case "fx":
+                        return new fx();
+                    case "SinH":
+                        return new SinH();
+                    case "tanh":
+                        return new tanh();
+                    case "exp":
+                        return new exp();
                     default:
                         throw new Exception("Error");
                 }

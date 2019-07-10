@@ -32,7 +32,7 @@ namespace Calculator
 
         }
 
-        private void AdditionButton_Click(object sender, EventArgs e)
+    /*    private void AdditionButton_Click(object sender, EventArgs e)
         {
 
         }
@@ -51,7 +51,7 @@ namespace Calculator
         {
 
         }
-
+        */
         private void CheckButton_Click(object sender, EventArgs e)
         {
             double firstNumber = Convert.ToDouble(FirstField.Text);
