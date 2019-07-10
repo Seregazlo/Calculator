@@ -71,7 +71,7 @@
     <Compile Include="OneArguments\Log10.cs" />
     <Compile Include="TwoArguments\Discripter.cs" />
     <Compile Include="TwoArguments\Divider.cs" />
-    <Compile Include="TwoArguments\Exponentation.cs" />
+    <Compile Include="OneArguments\Exponentation.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
