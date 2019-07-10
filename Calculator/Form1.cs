@@ -57,11 +57,15 @@ namespace Calculator
             double firstNumber = Convert.ToDouble(FirstField.Text);
             double secondNumber = Convert.ToDouble(SecondField.Text);
             ITwoArgumentsCalculator calculator= TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            IOneArgumentsCalculator calc = OneArgumentsFactory.CreateCalculator(((Button) sender).Name);
             double result = calculator.Calculate(firstNumber, secondNumber);
-            double resultation= calc.Calculates(firstNumber);
-            Result.Text = resultation.ToString();
             Result.Text = result.ToString();
+        }
+        private void CheckButton_Click_2(object sender, EventArgs e)
+        {
+            double firstNumber = Convert.ToDouble(FirstField.Text);
+            IOneArgumentsCalculator calc = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double resultation = calc.Calculate(firstNumber);
+            Result.Text = resultation.ToString();
         }
     }
     

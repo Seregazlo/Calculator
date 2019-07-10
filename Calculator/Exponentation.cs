@@ -7,7 +7,7 @@ namespace Calculator
 {
     class Exponentation: IOneArgumentsCalculator
     {
-        public double Calculates(double firstValue)
+        public double Calculate(double firstValue)
         {
             return firstValue*firstValue;
         }

@@ -115,7 +115,7 @@
             this.Sin.TabIndex = 7;
             this.Sin.Text = "sin()";
             this.Sin.UseVisualStyleBackColor = true;
-            this.Sin.Click += new System.EventHandler(this.CheckButton_Click);
+            this.Sin.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
             // Cos
             // 
@@ -125,7 +125,7 @@
             this.Cos.TabIndex = 8;
             this.Cos.Text = "cos()";
             this.Cos.UseVisualStyleBackColor = true;
-            this.Cos.Click += new System.EventHandler(this.CheckButton_Click);
+            this.Cos.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
             // Exponent
             // 
@@ -135,7 +135,7 @@
             this.Exponent.TabIndex = 9;
             this.Exponent.Text = "Степень";
             this.Exponent.UseVisualStyleBackColor = true;
-            this.Exponent.Click += new System.EventHandler(this.CheckButton_Click);
+            this.Exponent.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
             // Sqrt
             // 
@@ -145,7 +145,7 @@
             this.Sqrt.TabIndex = 10;
             this.Sqrt.Text = "Корень";
             this.Sqrt.UseVisualStyleBackColor = true;
-            this.Sqrt.Click += new System.EventHandler(this.CheckButton_Click);
+            this.Sqrt.Click += new System.EventHandler(this.CheckButton_Click_2);
             // 
             // Form1
             // 

@@ -7,6 +7,6 @@ namespace Calculator
 {
     public interface IOneArgumentsCalculator
         {
-            double Calculates(double firstValue);
+            double Calculate(double firstValue);
         }
 }

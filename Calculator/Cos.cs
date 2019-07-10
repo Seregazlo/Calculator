@@ -10,7 +10,7 @@ namespace Calculator
 
     class Cos: IOneArgumentsCalculator
     {
-        public double Calculates(double firstValue)
+        public double Calculate(double firstValue)
         {
             return Math.Cos(firstValue);
         }
