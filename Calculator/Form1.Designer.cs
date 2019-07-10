@@ -385,7 +385,7 @@
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox1.ImageLocation = "C:\\Users\\Admin\\Documents\\GitHub\\Calculator\\Calculator\\jj.png";
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(34, 216);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 220);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(103, 58);
             this.pictureBox1.TabIndex = 32;

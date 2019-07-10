@@ -59,19 +59,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acrcos.cs" />
-    <Compile Include="Adder.cs" />
-    <Compile Include="Arcsin.cs" />
-    <Compile Include="ArcTan.cs" />
-    <Compile Include="ArithmeticMean.cs" />
-    <Compile Include="Cos.cs" />
-    <Compile Include="CosH.cs" />
-    <Compile Include="exp.cs" />
-    <Compile Include="fx.cs" />
-    <Compile Include="Log10.cs" />
-    <Compile Include="Discripter.cs" />
-    <Compile Include="Divider.cs" />
-    <Compile Include="Exponentation.cs" />
+    <Compile Include="OneArguments\Acrcos.cs" />
+    <Compile Include="TwoArguments\Adder.cs" />
+    <Compile Include="OneArguments\Arcsin.cs" />
+    <Compile Include="OneArguments\ArcTan.cs" />
+    <Compile Include="TwoArguments\ArithmeticMean.cs" />
+    <Compile Include="OneArguments\Cos.cs" />
+    <Compile Include="OneArguments\CosH.cs" />
+    <Compile Include="OneArguments\exp.cs" />
+    <Compile Include="OneArguments\fx.cs" />
+    <Compile Include="OneArguments\Log10.cs" />
+    <Compile Include="TwoArguments\Discripter.cs" />
+    <Compile Include="TwoArguments\Divider.cs" />
+    <Compile Include="TwoArguments\Exponentation.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,25 +80,25 @@
     </Compile>
     <Compile Include="IOneArgumentsCalculator.cs" />
     <Compile Include="ITwoArgumentsCalculator.cs" />
-    <Compile Include="logxy.cs" />
-    <Compile Include="maxxy.cs" />
-    <Compile Include="minxy.cs" />
-    <Compile Include="Mod.cs" />
-    <Compile Include="Mulitipleer.cs" />
+    <Compile Include="TwoArguments\logxy.cs" />
+    <Compile Include="TwoArguments\maxxy.cs" />
+    <Compile Include="TwoArguments\minxy.cs" />
+    <Compile Include="OneArguments\Mod.cs" />
+    <Compile Include="TwoArguments\Mulitipleer.cs" />
     <Compile Include="OneArgumentsFactory.cs" />
-    <Compile Include="Pow.cs" />
+    <Compile Include="TwoArguments\Pow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RemainDivision.cs" />
-    <Compile Include="Sin.cs" />
-    <Compile Include="SinH.cs" />
-    <Compile Include="Sqrt.cs" />
-    <Compile Include="stx.cs" />
-    <Compile Include="Tan.cs" />
-    <Compile Include="tanh.cs" />
+    <Compile Include="TwoArguments\RemainDivision.cs" />
+    <Compile Include="OneArguments\Sin.cs" />
+    <Compile Include="OneArguments\SinH.cs" />
+    <Compile Include="OneArguments\Sqrt.cs" />
+    <Compile Include="OneArguments\stx.cs" />
+    <Compile Include="OneArguments\Tan.cs" />
+    <Compile Include="OneArguments\tanh.cs" />
     <Compile Include="TwoArgumentsFactory.cs" />
-    <Compile Include="xoney.cs" />
-    <Compile Include="xten.cs" />
+    <Compile Include="TwoArguments\xoney.cs" />
+    <Compile Include="OneArguments\xten.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,5 +128,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
