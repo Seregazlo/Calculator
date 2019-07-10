@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Mulitipleer: ITwoArgumentsCalculator
+     public class Mulitipleer: ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

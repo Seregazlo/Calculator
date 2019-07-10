@@ -47,9 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArguments\Exponentation.Tests.cs" />
+    <Compile Include="OneArguments\Sqrt.Tests.cs" />
     <Compile Include="TwoArguments\Adder.Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArguments\Discripter.Tests.cs" />
+    <Compile Include="TwoArguments\Divider.Tests.cs" />
+    <Compile Include="TwoArguments\Multipleer.Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">

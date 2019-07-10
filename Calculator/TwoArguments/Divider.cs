@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Divider: ITwoArgumentsCalculator
+    public class Divider: ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

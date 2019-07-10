@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Sqrt:IOneArgumentsCalculator
+    public class Sqrt:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {
