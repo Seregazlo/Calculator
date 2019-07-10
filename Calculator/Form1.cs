@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Calculator;
 
 namespace Calculator
 {
@@ -56,7 +57,10 @@ namespace Calculator
             double firstNumber = Convert.ToDouble(FirstField.Text);
             double secondNumber = Convert.ToDouble(SecondField.Text);
             ITwoArgumentsCalculator calculator= TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            IOneArgumentsCalculator calc = OneArgumentsFactory.CreateCalculator(((Button) sender).Name);
             double result = calculator.Calculate(firstNumber, secondNumber);
+            double resultation= calc.Calculates(firstNumber);
+            Result.Text = resultation.ToString();
             Result.Text = result.ToString();
         }
     }

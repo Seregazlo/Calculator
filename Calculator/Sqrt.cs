@@ -7,7 +7,7 @@ namespace Calculator
 {
     class Sqrt:IOneArgumentsCalculator
     {
-        public double Calculate(double firstValue)
+        public double Calculates(double firstValue)
         {
             return Math.Sqrt(firstValue);
         }

@@ -7,7 +7,7 @@ namespace Calculator
 {
     class Sin : IOneArgumentsCalculator
     {
-        public double Calculate(double firstValue)
+        public double Calculates(double firstValue)
         {
             return Math.Sin(firstValue);
         }
