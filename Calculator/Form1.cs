@@ -31,27 +31,7 @@ namespace Calculator
         {
 
         }
-
-    /*    private void AdditionButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DifferenceButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MultiplicationButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DivisionButton_Click(object sender, EventArgs e)
-        {
-
-        }
-        */
+        
         private void CheckButton_Click(object sender, EventArgs e)
         {
             double firstNumber = Convert.ToDouble(FirstField.Text);

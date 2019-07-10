@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.FirstField = new System.Windows.Forms.TextBox();
             this.SecondField = new System.Windows.Forms.TextBox();
             this.Result = new System.Windows.Forms.Label();
@@ -60,6 +61,8 @@
             this.xoney = new System.Windows.Forms.Button();
             this.exp = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // FirstField
@@ -100,7 +103,7 @@
             // 
             // Difference
             // 
-            this.Difference.Location = new System.Drawing.Point(108, 51);
+            this.Difference.Location = new System.Drawing.Point(93, 51);
             this.Difference.Name = "Difference";
             this.Difference.Size = new System.Drawing.Size(75, 23);
             this.Difference.TabIndex = 4;
@@ -110,7 +113,7 @@
             // 
             // Multiplication
             // 
-            this.Multiplication.Location = new System.Drawing.Point(12, 100);
+            this.Multiplication.Location = new System.Drawing.Point(12, 81);
             this.Multiplication.Name = "Multiplication";
             this.Multiplication.Size = new System.Drawing.Size(75, 23);
             this.Multiplication.TabIndex = 5;
@@ -120,7 +123,7 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(108, 100);
+            this.Division.Location = new System.Drawing.Point(93, 80);
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(75, 23);
             this.Division.TabIndex = 6;
@@ -130,7 +133,7 @@
             // 
             // Sin
             // 
-            this.Sin.Location = new System.Drawing.Point(12, 148);
+            this.Sin.Location = new System.Drawing.Point(12, 111);
             this.Sin.Name = "Sin";
             this.Sin.Size = new System.Drawing.Size(75, 23);
             this.Sin.TabIndex = 7;
@@ -140,7 +143,7 @@
             // 
             // Cos
             // 
-            this.Cos.Location = new System.Drawing.Point(108, 148);
+            this.Cos.Location = new System.Drawing.Point(93, 111);
             this.Cos.Name = "Cos";
             this.Cos.Size = new System.Drawing.Size(75, 23);
             this.Cos.TabIndex = 8;
@@ -150,7 +153,7 @@
             // 
             // Exponent
             // 
-            this.Exponent.Location = new System.Drawing.Point(12, 188);
+            this.Exponent.Location = new System.Drawing.Point(12, 141);
             this.Exponent.Name = "Exponent";
             this.Exponent.Size = new System.Drawing.Size(75, 23);
             this.Exponent.TabIndex = 9;
@@ -160,7 +163,7 @@
             // 
             // Sqrt
             // 
-            this.Sqrt.Location = new System.Drawing.Point(108, 188);
+            this.Sqrt.Location = new System.Drawing.Point(93, 141);
             this.Sqrt.Name = "Sqrt";
             this.Sqrt.Size = new System.Drawing.Size(75, 23);
             this.Sqrt.TabIndex = 10;
@@ -377,11 +380,25 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "=";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox1.ImageLocation = "C:\\Users\\Admin\\Documents\\GitHub\\Calculator\\Calculator\\jj.png";
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(34, 216);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(103, 58);
+            this.pictureBox1.TabIndex = 32;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 524);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(386, 352);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.exp);
             this.Controls.Add(this.xoney);
@@ -416,6 +433,7 @@
             this.Controls.Add(this.FirstField);
             this.Name = "Form1";
             this.Text = "Калькулятор Богов";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -455,6 +473,7 @@
         private System.Windows.Forms.Button xoney;
         private System.Windows.Forms.Button exp;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
