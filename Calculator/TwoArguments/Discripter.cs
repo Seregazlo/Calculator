@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Discripter: ITwoArgumentsCalculator
+    public class Discripter: ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {
