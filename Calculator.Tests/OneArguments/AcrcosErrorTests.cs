@@ -7,7 +7,7 @@ namespace Calculator.Tests.OneArguments
     [TestFixture]
     public class AcrCosErrorTests
     {
-        [TestCase(0, 0)]
+        [Test]
         public void CalculatorTest()
         {
             var calculator = new Acrcos();
