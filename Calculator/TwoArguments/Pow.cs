@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Pow:ITwoArgumentsCalculator
+    public class Pow:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

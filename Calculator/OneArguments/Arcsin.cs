@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Arcsin:IOneArgumentsCalculator
+    public class Arcsin:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

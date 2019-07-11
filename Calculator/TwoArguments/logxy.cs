@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class logxy:ITwoArgumentsCalculator
+    public class logxy:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

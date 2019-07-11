@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class maxxy:ITwoArgumentsCalculator
+    public class maxxy:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

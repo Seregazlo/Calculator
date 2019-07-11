@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class exp: IOneArgumentsCalculator
+    public class exp: IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

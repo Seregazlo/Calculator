@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Acrcos:IOneArgumentsCalculator
+    public class Acrcos:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

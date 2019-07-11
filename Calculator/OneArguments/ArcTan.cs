@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class ArcTan:IOneArgumentsCalculator
+    public class ArcTan:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

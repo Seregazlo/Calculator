@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class xoney: ITwoArgumentsCalculator
+    public class xoney: ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

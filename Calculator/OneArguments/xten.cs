@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class xten:IOneArgumentsCalculator
+    public class xten:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

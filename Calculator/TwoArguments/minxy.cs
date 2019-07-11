@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class minxy:ITwoArgumentsCalculator
+    public class minxy:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

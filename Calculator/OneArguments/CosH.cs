@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class CosH:IOneArgumentsCalculator
+    public class CosH:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

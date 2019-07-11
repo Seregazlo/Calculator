@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class Tan:IOneArgumentsCalculator
+    public class Tan:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

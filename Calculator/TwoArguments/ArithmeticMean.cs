@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class ArithmeticMean:ITwoArgumentsCalculator
+    public class ArithmeticMean:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
         {

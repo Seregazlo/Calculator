@@ -7,8 +7,7 @@ using static System.Math;
 
 namespace Calculator
 {
-
-    class Cos: IOneArgumentsCalculator
+    public class Cos: IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

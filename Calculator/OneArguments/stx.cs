@@ -6,7 +6,7 @@ using Math = System.Math;
 
 namespace Calculator
 {
-    class stx:IOneArgumentsCalculator
+    public class stx:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {

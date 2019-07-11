@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Calculator
 {
-    class fx:IOneArgumentsCalculator
+    public class fx:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)
         {
