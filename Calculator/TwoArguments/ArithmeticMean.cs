@@ -1,10 +1,14 @@
 ﻿namespace Calculator.TwoArguments
 {
-    /// <summary>
-    /// Average arithmetic of two numbers
-    /// </summary>
     public class ArithmeticMean:ITwoArgumentsCalculator
     {
+        /// <summary>
+        /// Two arguments function
+        /// </summary>
+        /// <param name="firstValue"></param>
+        /// <param name="secondValue"></param>
+        ///  Average arithmetic of two numbers
+        /// <returns></returns>
         public double Calculate(double firstValue, double secondValue)
         {
             return ((firstValue + secondValue) / 2);

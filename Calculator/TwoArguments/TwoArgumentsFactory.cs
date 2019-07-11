@@ -6,7 +6,12 @@ namespace Calculator
 
     public class TwoArgumentsFactory
 
-    {
+    { 
+    /// <summary>
+    /// That two arguments function
+    /// </summary>
+    /// <param name="Name"></param>
+    /// <returns></returns>
         public static ITwoArgumentsCalculator CreateCalculator(string Name)
         {
             switch (Name)

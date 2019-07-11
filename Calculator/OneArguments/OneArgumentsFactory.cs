@@ -5,6 +5,11 @@ namespace Calculator
 {
     public class OneArgumentsFactory
     {
+        /// <summary>
+        /// That one arguments functions
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <returns></returns>
         public static IOneArgumentsCalculator CreateCalculator(string Name)
             {
                 switch (Name)
