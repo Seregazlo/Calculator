@@ -1,5 +1,8 @@
 ﻿namespace Calculator.TwoArguments
 {
+    /// <summary>
+    /// Average arithmetic of two numbers
+    /// </summary>
     public class ArithmeticMean:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)

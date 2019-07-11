@@ -1,7 +1,9 @@
 ﻿using System;
 
 namespace Calculator.OneArguments
-{
+{/// <summary>
+/// Logarithm of the number base ten
+/// </summary>
     public class Log10:IOneArgumentsCalculator
     {
         public double Calculate(double firstValue)

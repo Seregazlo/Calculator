@@ -1,8 +1,10 @@
 ﻿using System;
-using System.Windows.Forms.VisualStyles;
 
 namespace Calculator.TwoArguments
 {
+    /// <summary>
+    /// Raises the first number to the power of 1/second number
+    /// </summary>
     public class xoney: ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)

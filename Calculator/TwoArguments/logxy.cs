@@ -2,6 +2,9 @@
 
 namespace Calculator.TwoArguments
 {
+    /// <summary>
+    /// Logarithm of the first number base on the second number
+    /// </summary>
     public class logxy:ITwoArgumentsCalculator
     {
         public double Calculate(double firstValue, double secondValue)
