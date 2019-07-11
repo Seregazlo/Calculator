@@ -47,7 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArguments\AcrcosErrorTests.cs" />
+    <Compile Include="OneArguments\ArcsinErrorTests.cs" />
+    <Compile Include="OneArguments\Log10ErrorTests.cs" />
     <Compile Include="OneArguments\OneArgumentsFactoryTests.cs" />
+    <Compile Include="OneArguments\SqrtErrorTests.cs" />
+    <Compile Include="TwoArguments\DivTests.cs" />
     <Compile Include="TwoArguments\TwoArgumentsFactoryTests.cs" />
     <Compile Include="OneArguments\AcrcosTests.cs" />
     <Compile Include="OneArguments\ArcsinTests.cs" />
