@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Mime;
-using System.Text;
+using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace Calculator.Tests.TwoArguments
+namespace Calculator.Tests
 {
     [TestFixture]
     public class TwoArgumentsFactoryTests

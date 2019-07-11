@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
-using System.Text;
 
-namespace Calculator
+namespace Calculator.TwoArguments
 {
     public class xoney: ITwoArgumentsCalculator
     {
