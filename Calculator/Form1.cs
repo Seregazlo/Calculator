@@ -27,18 +27,36 @@ namespace Calculator
         
         private void CheckButton_Click(object sender, EventArgs e)
         {
-            double firstNumber = Convert.ToDouble(FirstField.Text);
-            double secondNumber = Convert.ToDouble(SecondField.Text);
-            ITwoArgumentsCalculator calculator= TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstNumber, secondNumber);
-            Result.Text = result.ToString();
+
+            try
+            {
+                double firstNumber = Convert.ToDouble(FirstField.Text);
+                double secondNumber = Convert.ToDouble(SecondField.Text);
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+                double result = calculator.Calculate(firstNumber, secondNumber);
+                Result.Text = result.ToString();
+            }
+            catch(Exception ty)
+            {
+                MessageBox.Show("Ошибка: "+ ty.Message);
+            }
+
+           
         }
         private void CheckButton_Click_2(object sender, EventArgs e)
         {
+
+            try
+            {
             double firstNumber = Convert.ToDouble(FirstField.Text);
             IOneArgumentsCalculator calc = OneArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double resultation = calc.Calculate(firstNumber);
             Result.Text = resultation.ToString();
+            }
+            catch(Exception ty)
+            {
+                MessageBox.Show("Ошибка: "+ ty.Message);
+            }
         }
     }
 }
