@@ -7,6 +7,8 @@ namespace Calculator.Tests.TwoArguments
     public class RemainDivisionTests
     {
         [TestCase(10, 5, 0)]
+        [TestCase(4, 3, 1)]
+        [TestCase(3, 1, 0)]
         public void CalculatorTest(
             double firstValue,
             double secondValue,

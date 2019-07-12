@@ -7,6 +7,7 @@ namespace Calculator.Tests.OneArguments
     public class CosHTests
     {
         [TestCase(0, 1)]
+
         public void CalculatorTest(
             double firstValue,
             double expected)

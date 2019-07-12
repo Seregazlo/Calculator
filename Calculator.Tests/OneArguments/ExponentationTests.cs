@@ -6,12 +6,14 @@ namespace Calculator.Tests.OneArguments
     [TestFixture]
     public class ExponentationTests
     {
-        [Test]
-        public void CalculatorTests()
+        [TestCase(4,16)]
+        [TestCase(2, 4)]
+        [TestCase(3, 9)]
+        public void CalculatorTests(double firstValue,double expected)
         {
             var calculator = new Exponentation();
-            double actual = calculator.Calculate(3);
-            Assert.AreEqual(9, actual: actual);
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

@@ -7,7 +7,7 @@
         /// One arguments function
         /// </summary>
         /// <param name="firstValue">
-        ///Construction of the power
+        /// Construction of the power
         /// </param>
         /// <returns></returns>
         public double Calculate(double firstValue)

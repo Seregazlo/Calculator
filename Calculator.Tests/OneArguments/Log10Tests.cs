@@ -7,6 +7,8 @@ namespace Calculator.Tests.OneArguments
     public class Log10Tests
     {
         [TestCase(1, 0)]
+        [TestCase(10, 1)]
+        [TestCase(100, 2)]
         public void CalculatorTest(
             double firstValue,
             double expected)

@@ -7,6 +7,8 @@ namespace Calculator.Tests.OneArguments
     public class xtenTests
     {
         [TestCase(1, 10)]
+        [TestCase(0, 1)]
+        [TestCase(2, 100)]
         public void CalculatorTest(
             double firstValue,
             double expected)

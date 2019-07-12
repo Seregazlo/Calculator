@@ -7,6 +7,8 @@ namespace Calculator.Tests.TwoArguments
     public class minxyTests
     {
         [TestCase(1, 3, 1)]
+        [TestCase(4, 2 ,2)]
+        [TestCase(4, 0, 0)]
         public void CalculatorTest(
             double firstValue,
             double secondValue,

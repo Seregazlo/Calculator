@@ -7,6 +7,7 @@ namespace Calculator.Tests.OneArguments
     public class AcrcosTests
     {
         [TestCase(1, 0)]
+
         public void CalculatorTest(
             double firstValue,
             double expected)

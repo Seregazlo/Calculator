@@ -5,7 +5,7 @@ namespace Calculator.OneArguments
     public class Log10 : IOneArgumentsCalculator
     {
         /// <summary>
-        /// 
+        /// One arguments function
         /// </summary>
         /// <param name="firstValue">
         /// Logarithm of the number base ten

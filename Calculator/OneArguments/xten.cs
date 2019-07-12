@@ -8,7 +8,7 @@ namespace Calculator.OneArguments
         /// One argument function
         /// </summary>
         /// <param name="firstValue">
-        ///Value of 10 to the power of number
+        /// Value of 10 to the power of number
         /// </param>
         /// <returns></returns>
         public double Calculate(double firstValue)

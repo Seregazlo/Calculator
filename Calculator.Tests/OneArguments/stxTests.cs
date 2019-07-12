@@ -7,6 +7,8 @@ namespace Calculator.Tests.OneArguments
     public class stxTests
     {
         [TestCase(1, 2)]
+        [TestCase(5, 32)]
+        [TestCase(4, 16)]
         public void CalculatorTest(
             double firstValue,
             double expected)

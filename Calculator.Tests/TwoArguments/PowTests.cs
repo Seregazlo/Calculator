@@ -7,6 +7,8 @@ namespace Calculator.Tests.TwoArguments
     public class PowTests
     {
         [TestCase(2, 2, 4)]
+        [TestCase(4, 2, 16)]
+        [TestCase(3, 2, 9)]
         public void CalculatorTest(
             double firstValue,
             double secondValue,

@@ -7,6 +7,8 @@ namespace Calculator.Tests.TwoArguments
     public class maxxyTests
     {
         [TestCase(1, 3, 3)]
+        [TestCase(4, 2, 4)]
+        [TestCase(4, 6, 6)]
         public void CalculatorTest(
             double firstValue,
             double secondValue,

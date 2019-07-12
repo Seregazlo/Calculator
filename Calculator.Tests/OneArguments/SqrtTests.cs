@@ -6,12 +6,14 @@ namespace Calculator.Tests.OneArguments
     [TestFixture]
     public class SqrtTests
     {
-        [Test]
-        public void CalculatorTests()
+        [TestCase(4,2)]
+        [TestCase(9, 3)]
+        [TestCase(16, 4)]
+        public void CalculatorTests(double firstValue,double expected)
         {
             var calculator = new Sqrt();
-            double actual = calculator.Calculate(4);
-            Assert.AreEqual(2, actual: actual);
+            var actualResult = calculator.Calculate(firstValue);
+            Assert.AreEqual(expected, actualResult);
         }
     }
 }

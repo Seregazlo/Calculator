@@ -7,6 +7,8 @@ namespace Calculator.Tests.TwoArguments
     public class xoneyTests
     {
         [TestCase(1, 1, 1)]
+        [TestCase(4, 2, 2)]
+        [TestCase(9, 2, 3)]
         public void CalculatorTest(
             double firstValue,
             double secondValue,

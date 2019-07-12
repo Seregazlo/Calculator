@@ -6,7 +6,9 @@ namespace Calculator.Tests.TwoArguments
     [TestFixture]
     public class logxyTests
     {
-        [TestCase(1, 0,0)]
+        [TestCase(2, 2, 1)]
+        [TestCase(50, 50, 1)]
+        [TestCase(6, 6, 1)]
         public void CalculatorTest(
             double firstValue,
             double secondValue,

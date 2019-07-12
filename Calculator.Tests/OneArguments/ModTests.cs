@@ -7,6 +7,8 @@ namespace Calculator.Tests.OneArguments
     public class ModTests
     {
         [TestCase(-1, 1)]
+        [TestCase(2, 2)]
+        [TestCase(-5, 5)]
         public void CalculatorTest(
             double firstValue,
             double expected)
