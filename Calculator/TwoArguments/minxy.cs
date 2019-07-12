@@ -2,7 +2,7 @@
 
 namespace Calculator.TwoArguments
 {
-    public class minxy:ITwoArgumentsCalculator
+    public class MinXY : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two argument function

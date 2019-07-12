@@ -1,6 +1,6 @@
 ﻿namespace Calculator.TwoArguments
 {
-    public class Adder: ITwoArgumentsCalculator
+    public class Adder : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two argument function

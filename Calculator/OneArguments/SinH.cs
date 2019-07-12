@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class SinH:IOneArgumentsCalculator
+    public class SinH : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

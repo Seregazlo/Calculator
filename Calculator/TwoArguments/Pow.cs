@@ -2,7 +2,7 @@
 
 namespace Calculator.TwoArguments
 {
-    public class Pow:ITwoArgumentsCalculator
+    public class Pow : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two argument function

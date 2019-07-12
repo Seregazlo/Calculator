@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
-    public class logxyTests
+    public class LogXYTests
     {
         [TestCase(2, 2, 1)]
         [TestCase(50, 50, 1)]
@@ -14,8 +14,8 @@ namespace Calculator.Tests.TwoArguments
             double secondValue,
             double expected)
         {
-            var calculator = new logxy();
-            var actualResult = calculator.Calculate(firstValue,secondValue);
+            var calculator = new LogXY();
+            var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
     }

@@ -2,7 +2,7 @@
 
 namespace Calculator.TwoArguments
 {
-    public class Divider: ITwoArgumentsCalculator
+    public class Divider : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two argument function

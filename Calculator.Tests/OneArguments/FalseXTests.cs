@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calculator.Tests.OneArguments
 {
     [TestFixture]
-    public class fxTests
+    public class FalseXTests
     {
         [TestCase(2, -2)]
         [TestCase(1, -1)]
@@ -13,7 +13,7 @@ namespace Calculator.Tests.OneArguments
             double firstValue,
             double expected)
         {
-            var calculator = new fx();
+            var calculator = new FalseX();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult);
         }

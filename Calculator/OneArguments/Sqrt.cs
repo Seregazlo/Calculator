@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class Sqrt:IOneArgumentsCalculator
+    public class Sqrt : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function
@@ -13,7 +13,10 @@ namespace Calculator.OneArguments
         /// <returns></returns>
         public double Calculate(double firstValue)
         {
-            if(firstValue<=0)throw new Exception("Корень из 0");
+            if (firstValue <= 0)
+            {
+                throw new Exception("Корень из 0");
+            }
             return Math.Sqrt(firstValue);
         }
     }

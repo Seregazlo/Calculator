@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class Mod:IOneArgumentsCalculator
+    public class Mod : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

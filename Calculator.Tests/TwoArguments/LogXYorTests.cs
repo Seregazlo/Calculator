@@ -5,13 +5,13 @@ using NUnit.Framework;
 namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
-    public class logxyErrorTests
+    public class LogXYorTests
     {
         [Test]
         public void CalculatorTest()
         {
-            var calculator = new logxy();
-            Assert.Throws<Exception>(() => calculator.Calculate(-5,-1));
+            var calculator = new LogXY();
+            Assert.Throws<Exception>(() => calculator.Calculate(-5, -1));
         }
     }
 }

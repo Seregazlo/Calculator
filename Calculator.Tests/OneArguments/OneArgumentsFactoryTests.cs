@@ -2,7 +2,7 @@
 using Calculator.OneArguments;
 using NUnit.Framework;
 
-namespace Calculator.Tests
+namespace Calculator.Tests.OneArguments
 {
     [TestFixture]
     public class OneArgumentsFactoryTests
@@ -18,15 +18,15 @@ namespace Calculator.Tests
         [TestCase("Acrcos", typeof(Acrcos))]
         [TestCase("Tan", typeof(Tan))]
         [TestCase("Log10", typeof(Log10))]
-        [TestCase("stx", typeof(stx))]
-        [TestCase("xten", typeof(xten))]
-        [TestCase("fx", typeof(fx))]
+        [TestCase("stx", typeof(StX))]
+        [TestCase("xten", typeof(XTen))]
+        [TestCase("fx", typeof(FalseX))]
         [TestCase("SinH", typeof(SinH))]
-        [TestCase("tanh", typeof(tanh))]
-        [TestCase("exp", typeof(exp))]
+        [TestCase("tanh", typeof(TanH))]
+        [TestCase("exp", typeof(Exp))]
         public void CalculatorTest(string name, Type type)
         {
-            var calculator = OneArgumentsFactory.CreateCalculator(name);
+            var calculator = OneArgumentCalculatorsFactory.CreateCalculator(name);
             Assert.IsInstanceOf(type, calculator);
         }
     }

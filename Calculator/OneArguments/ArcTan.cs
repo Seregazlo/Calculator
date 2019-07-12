@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class ArcTan:IOneArgumentsCalculator
+    public class ArcTan : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

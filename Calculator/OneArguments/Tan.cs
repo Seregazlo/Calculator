@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class Tan:IOneArgumentsCalculator
+    public class Tan : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class stx:IOneArgumentsCalculator
+    public class StX : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

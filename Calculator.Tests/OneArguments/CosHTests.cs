@@ -7,6 +7,8 @@ namespace Calculator.Tests.OneArguments
     public class CosHTests
     {
         [TestCase(0, 1)]
+        [TestCase(1, 1.54)]
+        [TestCase(0.5, 1.12)]
 
         public void CalculatorTest(
             double firstValue,
@@ -14,7 +16,7 @@ namespace Calculator.Tests.OneArguments
         {
             var calculator = new CosH();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expected, actualResult, 0.01);
         }
     }
 }

@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calculator.Tests.OneArguments
 {
     [TestFixture]
-    public class xtenTests
+    public class XTenTests
     {
         [TestCase(1, 10)]
         [TestCase(0, 1)]
@@ -13,7 +13,7 @@ namespace Calculator.Tests.OneArguments
             double firstValue,
             double expected)
         {
-            var calculator = new xten();
+            var calculator = new XTen();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult);
         }

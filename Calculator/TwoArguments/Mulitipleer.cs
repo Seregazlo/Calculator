@@ -1,6 +1,6 @@
 ﻿namespace Calculator.TwoArguments
 {
-     public class Mulitipleer: ITwoArgumentsCalculator
+    public class Mulitipleer : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two argument function

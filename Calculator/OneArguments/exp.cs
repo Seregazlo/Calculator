@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class exp: IOneArgumentsCalculator
+    public class Exp : IOneArgumentCalculators
     {
         /// <summary>
         /// One Arguments Function

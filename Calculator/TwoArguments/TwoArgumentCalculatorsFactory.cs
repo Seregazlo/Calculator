@@ -1,18 +1,15 @@
 ﻿using System;
-using Calculator.TwoArguments;
 
-namespace Calculator
+namespace Calculator.TwoArguments
 {
-
-    public class TwoArgumentsFactory
-
-    { 
-    /// <summary>
-    /// That two arguments function
-    /// </summary>
-    /// <param name="Name"></param>
-    /// <returns></returns>
-        public static ITwoArgumentsCalculator CreateCalculator(string Name)
+    public static class TwoArgumentCalculatorsFactory
+    {
+        /// <summary>
+        /// That two arguments function
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <returns></returns>
+        public static ITwoArgumentCalculators CreateCalculator(string Name)
         {
             switch (Name)
             {
@@ -31,13 +28,13 @@ namespace Calculator
                 case "ArithmeticMean":
                     return new ArithmeticMean();
                 case "logxy":
-                    return new logxy();
+                    return new LogXY();
                 case "minxy":
-                    return new minxy();
+                    return new MinXY();
                 case "maxxy":
-                    return new maxxy();
+                    return new MaxXY();
                 case "xoney":
-                    return new xoney();
+                    return new XoneY();
                 default:
                     throw new Exception("Error");
             }

@@ -1,6 +1,6 @@
 ﻿namespace Calculator.TwoArguments
 {
-    public class ArithmeticMean:ITwoArgumentsCalculator
+    public class ArithmeticMean : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two arguments function

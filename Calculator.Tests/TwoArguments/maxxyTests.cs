@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
-    public class maxxyTests
+    public class MaxXYTests
     {
         [TestCase(1, 3, 3)]
         [TestCase(4, 2, 4)]
@@ -14,7 +14,7 @@ namespace Calculator.Tests.TwoArguments
             double secondValue,
             double expected)
         {
-            var calculator = new maxxy();
+            var calculator = new MaxXY();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

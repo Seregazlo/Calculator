@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class xten:IOneArgumentsCalculator
+    public class XTen : IOneArgumentCalculators
     {
         /// <summary>
         /// One argument function
@@ -13,7 +13,7 @@ namespace Calculator.OneArguments
         /// <returns></returns>
         public double Calculate(double firstValue)
         {
-            return Math.Pow(10,firstValue);
+            return Math.Pow(10, firstValue);
         }
     }
 }

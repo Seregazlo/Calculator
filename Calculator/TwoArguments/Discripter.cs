@@ -1,6 +1,6 @@
 ﻿namespace Calculator.TwoArguments
 {
-    public class Discripter: ITwoArgumentsCalculator
+    public class Discripter : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two argument function

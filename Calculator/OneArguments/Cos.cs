@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class Cos: IOneArgumentsCalculator
+    public class Cos : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

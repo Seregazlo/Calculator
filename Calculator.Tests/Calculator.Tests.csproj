@@ -47,13 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArguments\AcrcosErrorTests.cs" />
-    <Compile Include="OneArguments\ArcsinErrorTests.cs" />
-    <Compile Include="OneArguments\Log10ErrorTests.cs" />
     <Compile Include="OneArguments\OneArgumentsFactoryTests.cs" />
-    <Compile Include="OneArguments\SqrtErrorTests.cs" />
     <Compile Include="TwoArguments\DivTests.cs" />
-    <Compile Include="TwoArguments\logxyErrorTests.cs" />
+    <Compile Include="TwoArguments\LogXYorTests.cs" />
     <Compile Include="TwoArguments\TwoArgumentsFactoryTests.cs" />
     <Compile Include="OneArguments\AcrcosTests.cs" />
     <Compile Include="OneArguments\ArcsinTests.cs" />
@@ -61,30 +57,29 @@
     <Compile Include="OneArguments\CosHTests.cs" />
     <Compile Include="OneArguments\CosTests.cs" />
     <Compile Include="OneArguments\ExponentationTests.cs" />
-    <Compile Include="OneArguments\expTests.cs" />
-    <Compile Include="OneArguments\fxTests.cs" />
+    <Compile Include="OneArguments\ExpTests.cs" />
+    <Compile Include="OneArguments\FalseXTests.cs" />
     <Compile Include="OneArguments\Log10Tests.cs" />
     <Compile Include="OneArguments\ModTests.cs" />
     <Compile Include="OneArguments\SinHTests.cs" />
     <Compile Include="OneArguments\SinTests.cs" />
     <Compile Include="OneArguments\SqrtTests.cs" />
-    <Compile Include="OneArguments\stxTests.cs" />
-    <Compile Include="OneArguments\tanhTests.cs" />
+    <Compile Include="OneArguments\StXTests.cs" />
+    <Compile Include="OneArguments\TanHTests.cs" />
     <Compile Include="OneArguments\TanTests.cs" />
-    <Compile Include="OneArguments\xtenTests.cs" />
+    <Compile Include="OneArguments\XTenTests.cs" />
     <Compile Include="TwoArguments\AdderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArguments\ArithmethicMeanTests.cs" />
     <Compile Include="TwoArguments\DiscripterTests.cs" />
     <Compile Include="TwoArguments\DividerTests.cs" />
-    <Compile Include="TwoArguments\logxyTests.cs" />
-    <Compile Include="TwoArguments\maxxyTests.cs" />
-    <Compile Include="TwoArguments\minxyTests.cs" />
+    <Compile Include="TwoArguments\LogXYTests.cs" />
+    <Compile Include="TwoArguments\MaxXYTests.cs" />
+    <Compile Include="TwoArguments\MinXYTests.cs" />
     <Compile Include="TwoArguments\MultipleerTests.cs" />
     <Compile Include="TwoArguments\PowTests.cs" />
     <Compile Include="TwoArguments\RemainDivisionTests.cs" />
-    <Compile Include="TwoArguments\xoneyErrorTests.cs" />
-    <Compile Include="TwoArguments\xoneyTests.cs" />
+    <Compile Include="TwoArguments\XoneYTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">

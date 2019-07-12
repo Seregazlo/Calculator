@@ -1,10 +1,11 @@
-﻿using Calculator.TwoArguments;
+﻿using System;
+using Calculator.TwoArguments;
 using NUnit.Framework;
 
 namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
-    public class xoneyTests
+    public class XoneYTests
     {
         [TestCase(1, 1, 1)]
         [TestCase(4, 2, 2)]
@@ -14,8 +15,9 @@ namespace Calculator.Tests.TwoArguments
             double secondValue,
             double expected)
         {
-            var calculator = new xoney();
+            var calculator = new XoneY();
             var actualResult = calculator.Calculate(firstValue, secondValue);
+            Assert.Throws<Exception>(() => calculator.Calculate(2, 0));
             Assert.AreEqual(expected, actualResult);
         }
     }

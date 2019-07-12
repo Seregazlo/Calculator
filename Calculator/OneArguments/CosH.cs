@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArguments
 {
-    public class CosH:IOneArgumentsCalculator
+    public class CosH : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

@@ -1,6 +1,6 @@
 ﻿namespace Calculator.TwoArguments
 {
-    public class RemainDivision:ITwoArgumentsCalculator
+    public class RemainDivision : ITwoArgumentCalculators
     {
         /// <summary>
         /// Two argument function

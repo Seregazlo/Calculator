@@ -7,13 +7,15 @@ namespace Calculator.Tests.OneArguments
     public class ArcTanTests
     {
         [TestCase(0, 0)]
+        [TestCase(2, 1.10)]
+        [TestCase(5, 1.37)]
         public void CalculatorTest(
             double firstValue,
             double expected)
         {
             var calculator = new ArcTan();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expected, actualResult, 0.01);
         }
     }
 }

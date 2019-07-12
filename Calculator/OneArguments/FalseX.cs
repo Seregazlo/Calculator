@@ -1,6 +1,6 @@
 ﻿namespace Calculator.OneArguments
 {
-    public class fx:IOneArgumentsCalculator
+    public class FalseX : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function

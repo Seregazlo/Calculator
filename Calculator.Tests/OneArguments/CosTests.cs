@@ -7,13 +7,15 @@ namespace Calculator.Tests.OneArguments
     public class CosTests
     {
         [TestCase(0, 1)]
+        [TestCase(2, -0.41)]
+        [TestCase(1, 0.54)]
         public void CalculatorTest(
             double firstValue,
             double expected)
         {
             var calculator = new Cos();
             var actualResult = calculator.Calculate(firstValue);
-            Assert.AreEqual(expected, actualResult);
+            Assert.AreEqual(expected, actualResult, 0.01);
         }
     }
 }

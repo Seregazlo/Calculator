@@ -1,7 +1,6 @@
 ﻿namespace Calculator.OneArguments
 {
-
-    public class Exponentation: IOneArgumentsCalculator
+    public class Exponentation : IOneArgumentCalculators
     {
         /// <summary>
         /// One arguments function
@@ -12,7 +11,7 @@
         /// <returns></returns>
         public double Calculate(double firstValue)
         {
-            return firstValue*firstValue;
+            return firstValue * firstValue;
         }
     }
 }

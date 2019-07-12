@@ -66,8 +66,8 @@
     <Compile Include="TwoArguments\ArithmeticMean.cs" />
     <Compile Include="OneArguments\Cos.cs" />
     <Compile Include="OneArguments\CosH.cs" />
-    <Compile Include="OneArguments\exp.cs" />
-    <Compile Include="OneArguments\fx.cs" />
+    <Compile Include="OneArguments\Exp.cs" />
+    <Compile Include="OneArguments\FalseX.cs" />
     <Compile Include="OneArguments\Log10.cs" />
     <Compile Include="TwoArguments\Discripter.cs" />
     <Compile Include="TwoArguments\Divider.cs" />
@@ -78,14 +78,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="OneArguments\IOneArgumentsCalculator.cs" />
-    <Compile Include="TwoArguments\ITwoArgumentsCalculator.cs" />
-    <Compile Include="TwoArguments\logxy.cs" />
-    <Compile Include="TwoArguments\maxxy.cs" />
-    <Compile Include="TwoArguments\minxy.cs" />
+    <Compile Include="OneArguments\IOneArgumentCalculators.cs" />
+    <Compile Include="TwoArguments\ITwoArgumentCalculators.cs" />
+    <Compile Include="TwoArguments\LogXY.cs" />
+    <Compile Include="TwoArguments\MaxXY.cs" />
+    <Compile Include="TwoArguments\MinXY.cs" />
     <Compile Include="OneArguments\Mod.cs" />
     <Compile Include="TwoArguments\Mulitipleer.cs" />
-    <Compile Include="OneArguments\OneArgumentsFactory.cs" />
+    <Compile Include="OneArguments\OneArgumentCalculatorFactory.cs" />
     <Compile Include="TwoArguments\Pow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,12 +93,12 @@
     <Compile Include="OneArguments\Sin.cs" />
     <Compile Include="OneArguments\SinH.cs" />
     <Compile Include="OneArguments\Sqrt.cs" />
-    <Compile Include="OneArguments\stx.cs" />
+    <Compile Include="OneArguments\StX.cs" />
     <Compile Include="OneArguments\Tan.cs" />
-    <Compile Include="OneArguments\tanh.cs" />
-    <Compile Include="TwoArguments\TwoArgumentsFactory.cs" />
-    <Compile Include="TwoArguments\xoney.cs" />
-    <Compile Include="OneArguments\xten.cs" />
+    <Compile Include="OneArguments\TanH.cs" />
+    <Compile Include="TwoArguments\TwoArgumentCalculatorsFactory.cs" />
+    <Compile Include="TwoArguments\XoneY.cs" />
+    <Compile Include="OneArguments\XTen.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
